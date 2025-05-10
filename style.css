@@ -1,0 +1,80 @@
+.button-add-book{
+    background-color: rgb(222, 86, 104);
+    font-size: 50px;
+    color: black;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    position: fixed;
+    border: none;
+    bottom: 30px;
+    right: 30px;
+    
+}
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    display: none;
+    
+}
+.popup-innerlay{
+    background-color:  rgb(222, 86, 104);
+    width: 400px;
+    height: 350px;
+    z-index: 2;
+    position: absolute;
+    border-radius: 10px;
+    left: 40%;
+    top: 30%;
+    display: none;
+}
+.popup-innerlay input{
+    background-color: transparent;
+    width: 90%;
+    border: none;
+    border-bottom: black solid 2px;
+    height: 60px;
+    margin-top: 10;
+    margin-left: 5%;
+    
+}
+.popup-innerlay input::placeholder{
+    color: black;
+}
+.popup-innerlay textarea{
+    background-color: transparent;
+    width: 90%;
+    border: black solid 2px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.popup-innerlay textarea::placeholder{
+    color: black;
+}
+.popup-innerlay input:focus{
+    outline: none;
+}
+.popup-innerlay textarea:focus{
+    outline: none;
+}
+.popup-innerlay button{
+    background-color: black;
+    color: white;
+    margin-left: 5%;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.popup-innerlay h2{
+    padding-left: 10px;
+    padding-top: 5px;
+}
